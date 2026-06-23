@@ -1,0 +1,42 @@
+{
+  "name": "EcoAtlante Demo",
+  "short_name": "EcoAtlante",
+  "description": "Demo interattiva EcoAtlante per studenti, docenti e amministratori.",
+  "start_url": "./#/student",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6ef",
+  "theme_color": "#27533a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Area studente",
+      "short_name": "Studente",
+      "url": "./#/student"
+    },
+    {
+      "name": "Area docente",
+      "short_name": "Docente",
+      "url": "./#/teacher"
+    },
+    {
+      "name": "Area admin",
+      "short_name": "Admin",
+      "url": "./#/admin"
+    }
+  ]
+}
