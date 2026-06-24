@@ -1,4 +1,4 @@
-const CACHE_NAME = "ecoatlante-demo-v1";
+const CACHE_NAME = "ecoatlante-demo-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -28,6 +28,10 @@ self.addEventListener("activate", (event) => {
   );
 });
 
+function isNavigationRequest(request) {
+  return request.mode === "navigate" || (request.method === "GET" && request.headers.get("accept")?.includes("text/html"));
+}
+
 self.addEventListener("fetch", (event) => {
   const request = event.request;
 
@@ -41,6 +45,24 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  // Network-first for navigations / HTML so the freshly deployed index.html
+  // (and the hashed asset URLs it references) is always picked up. Fall back to
+  // the cached shell only when offline.
+  if (isNavigationRequest(request)) {
+    event.respondWith(
+      fetch(request)
+        .then((networkResponse) => {
+          const responseCopy = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(request, responseCopy));
+          return networkResponse;
+        })
+        .catch(() => caches.match(request).then((cached) => cached || caches.match("./index.html"))),
+    );
+    return;
+  }
+
+  // Cache-first for everything else. Content-hashed assets (assets/*) change
+  // name on every build, so caching them indefinitely is safe.
   event.respondWith(
     caches.match(request).then((cachedResponse) => {
       if (cachedResponse) {
