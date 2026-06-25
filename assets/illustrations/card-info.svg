@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Info progetto">
+  <rect width="320" height="140" fill="#d6eff1"/>
+  <path d="M0 106 Q80 88 170 100 T320 98 L320 140 L0 140 Z" fill="#8ad79e"/>
+  <path d="M0 120 Q90 106 190 116 T320 116 L320 140 L0 140 Z" fill="#5cbf7e"/>
+  <!-- Globe -->
+  <g transform="translate(160 64)">
+    <circle cx="0" cy="0" r="40" fill="#6fcfe0"/>
+    <path d="M-40 0 H40 M0 -40 V40" stroke="#ffffff" stroke-width="2.5" opacity="0.7"/>
+    <ellipse cx="0" cy="0" rx="18" ry="40" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.7"/>
+    <path d="M-26 -16 q10 8 0 18 q14 8 26 2 q8 10 -2 20" fill="#3f9e6a"/>
+    <path d="M12 -22 q12 -2 18 8 q-8 10 -20 6 Z" fill="#3f9e6a"/>
+  </g>
+  <!-- Leaf accent -->
+  <path d="M236 40 q24 -16 46 4 q-24 16 -46 -4 Z" fill="#3f9e6a" opacity="0.85"/>
+</svg>

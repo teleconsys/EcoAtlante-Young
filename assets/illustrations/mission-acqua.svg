@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Acqua">
+  <rect width="260" height="200" fill="#d3eef2"/>
+  <circle cx="206" cy="42" r="24" fill="#ffe39a"/>
+  <!-- Drop -->
+  <path d="M130 48 C160 92 172 112 172 130 a42 42 0 0 1 -84 0 c0 -18 12 -38 42 -82 Z" fill="#5cc6dc"/>
+  <path d="M112 120 a18 18 0 0 0 12 24" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <!-- Waves -->
+  <path d="M0 158 Q40 144 80 158 T160 158 T260 158 L260 200 L0 200 Z" fill="#3fb6cf"/>
+  <path d="M0 176 Q40 162 80 176 T160 176 T260 176 L260 200 L0 200 Z" fill="#2a9fc0"/>
+</svg>

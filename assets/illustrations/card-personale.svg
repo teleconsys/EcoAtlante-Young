@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Area personale">
+  <rect width="320" height="140" fill="#dceee2"/>
+  <circle cx="60" cy="34" r="22" fill="#ffd76a"/>
+  <path d="M0 104 Q80 84 170 98 T320 96 L320 140 L0 140 Z" fill="#8ad79e"/>
+  <path d="M0 118 Q90 104 190 114 T320 114 L320 114 L320 140 L0 140 Z" fill="#5cbf7e"/>
+  <!-- Avatar -->
+  <g transform="translate(170 60)">
+    <circle cx="0" cy="0" r="34" fill="#ffffff" stroke="#3f9e6a" stroke-width="3"/>
+    <circle cx="0" cy="-8" r="12" fill="#3f9e6a"/>
+    <path d="M-20 24 Q-20 4 0 4 Q20 4 20 24 Z" fill="#3f9e6a"/>
+  </g>
+  <!-- Badge star -->
+  <g transform="translate(214 40)">
+    <circle cx="0" cy="0" r="18" fill="#f4894e"/>
+    <path d="M0 -9 l3 6 6.5 1 -4.5 4.5 1 6.5 -6 -3 -6 3 1 -6.5 -4.5 -4.5 6.5 -1 Z" fill="#ffffff"/>
+  </g>
+</svg>

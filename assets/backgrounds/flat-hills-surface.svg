@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Sfondo illustrato con dolci colline verdi">
+  <defs>
+    <linearGradient id="surfaceSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef9f5"/>
+      <stop offset="0.55" stop-color="#e3f4ee"/>
+      <stop offset="1" stop-color="#d6efe4"/>
+    </linearGradient>
+    <linearGradient id="surfaceHillFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd9ab"/>
+      <stop offset="1" stop-color="#8acf9a"/>
+    </linearGradient>
+    <radialGradient id="surfaceSun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffeebc" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffeebc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1600" height="1000" fill="url(#surfaceSky)"/>
+
+  <!-- Soft sun glow -->
+  <circle cx="1330" cy="240" r="220" fill="url(#surfaceSun)"/>
+
+  <!-- Soft clouds -->
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="320" cy="230" rx="86" ry="32"/>
+    <ellipse cx="392" cy="244" rx="58" ry="26"/>
+    <ellipse cx="248" cy="246" rx="48" ry="22"/>
+  </g>
+
+  <!-- Distant hills -->
+  <path d="M0 760 Q300 680 620 736 T1180 724 T1600 730 L1600 1000 L0 1000 Z" fill="#d6efd2"/>
+
+  <!-- Mid hills -->
+  <path d="M0 840 Q360 768 720 822 T1340 814 T1600 824 L1600 1000 L0 1000 Z" fill="#bce3bf"/>
+
+  <!-- Front hill -->
+  <path d="M0 912 Q420 852 820 902 T1600 910 L1600 1000 L0 1000 Z" fill="url(#surfaceHillFront)"/>
+
+  <!-- Sparse trees on front hill -->
+  <g opacity="0.95">
+    <g transform="translate(200 918) scale(0.95)">
+      <rect x="-7" y="0" width="14" height="46" rx="6" fill="#86583a"/>
+      <circle cx="0" cy="-18" r="40" fill="#5cb277"/>
+      <circle cx="-24" cy="4" r="28" fill="#6abb83"/>
+      <circle cx="24" cy="4" r="28" fill="#6abb83"/>
+    </g>
+    <g transform="translate(1380 924) scale(1.05)">
+      <rect x="-7" y="0" width="14" height="46" rx="6" fill="#86583a"/>
+      <circle cx="0" cy="-18" r="40" fill="#5cb277"/>
+      <circle cx="-24" cy="4" r="28" fill="#6abb83"/>
+      <circle cx="24" cy="4" r="28" fill="#6abb83"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Community">
+  <rect width="320" height="140" fill="#dcf0ef"/>
+  <circle cx="258" cy="32" r="20" fill="#ffd76a"/>
+  <path d="M0 104 Q80 84 170 98 T320 96 L320 140 L0 140 Z" fill="#86d6c6"/>
+  <path d="M0 118 Q90 104 190 114 T320 114 L320 140 L0 140 Z" fill="#54bfa6"/>
+  <!-- People -->
+  <g transform="translate(118 56)">
+    <circle cx="0" cy="0" r="16" fill="#f4894e"/>
+    <path d="M-26 52 Q-26 22 0 22 Q26 22 26 52 Z" fill="#f4894e"/>
+  </g>
+  <g transform="translate(170 50)">
+    <circle cx="0" cy="0" r="18" fill="#3f9e6a"/>
+    <path d="M-30 58 Q-30 26 0 26 Q30 26 30 58 Z" fill="#3f9e6a"/>
+  </g>
+  <g transform="translate(222 56)">
+    <circle cx="0" cy="0" r="16" fill="#ffd76a"/>
+    <path d="M-26 52 Q-26 22 0 22 Q26 22 26 52 Z" fill="#ffd76a"/>
+  </g>
+</svg>

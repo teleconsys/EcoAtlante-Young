@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Challenge">
+  <rect width="320" height="140" fill="#d7f0ea"/>
+  <circle cx="58" cy="36" r="24" fill="#ffd76a"/>
+  <g stroke="#ffe7a3" stroke-width="4" stroke-linecap="round">
+    <path d="M58 4 V-4 M58 76 V68 M26 36 H18 M98 36 H90 M82 12 l6 -6 M34 60 l-6 6 M82 60 l6 6 M34 12 l-6 -6"/>
+  </g>
+  <path d="M0 96 Q90 70 180 92 T320 88 L320 140 L0 140 Z" fill="#7fd095"/>
+  <path d="M0 114 Q100 98 200 110 T320 112 L320 140 L0 140 Z" fill="#52ba76"/>
+  <!-- Flag on hill -->
+  <g transform="translate(196 60)">
+    <rect x="-3" y="0" width="6" height="54" rx="3" fill="#7a4f30"/>
+    <path d="M3 2 L52 14 L3 28 Z" fill="#f4894e"/>
+    <path d="M18 12 l5 5 l9 -9" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

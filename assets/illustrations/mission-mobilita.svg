@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Mobilita sostenibile">
+  <rect width="260" height="200" fill="#dcefe6"/>
+  <circle cx="210" cy="40" r="24" fill="#ffd76a"/>
+  <path d="M0 150 H260 V200 H0 Z" fill="#7fd095"/>
+  <path d="M0 150 H260" stroke="#5cbf7e" stroke-width="6"/>
+  <!-- Bike -->
+  <g transform="translate(130 120)" stroke="#12324a" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="-44" cy="30" r="26" fill="#ffffff"/>
+    <circle cx="44" cy="30" r="26" fill="#ffffff"/>
+    <path d="M-44 30 L-8 30 L20 -16 M-8 30 L24 30 L44 30 M-8 30 L-22 -16 L-34 -16 M20 -16 L48 -16"/>
+  </g>
+</svg>

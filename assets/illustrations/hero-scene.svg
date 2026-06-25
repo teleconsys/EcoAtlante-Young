@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Colline illustrate">
+  <!-- Birds -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.55">
+    <path d="M250 70 q14 -12 28 0 q14 -12 28 0"/>
+    <path d="M330 100 q11 -10 22 0 q11 -10 22 0"/>
+  </g>
+
+  <!-- Floating leaves -->
+  <g fill="#9fe0b4" opacity="0.5">
+    <path d="M1130 70 q40 -22 70 8 q-40 22 -70 -8 Z"/>
+    <path d="M980 140 q26 -14 46 6 q-26 14 -46 -6 Z"/>
+  </g>
+
+  <!-- Back hills -->
+  <path d="M0 250 Q240 180 520 236 T1040 224 T1400 232 L1400 360 L0 360 Z" fill="#5fb881" opacity="0.45"/>
+  <!-- Mid hills -->
+  <path d="M0 296 Q300 232 640 290 T1400 286 L1400 360 L0 360 Z" fill="#4aab73" opacity="0.7"/>
+
+  <!-- Trees -->
+  <g opacity="0.85">
+    <g transform="translate(170 252)">
+      <rect x="-7" y="0" width="14" height="44" rx="6" fill="#7a4f30"/>
+      <circle cx="0" cy="-16" r="40" fill="#3f9e6a"/>
+      <circle cx="-24" cy="4" r="28" fill="#4aae77"/>
+      <circle cx="24" cy="4" r="28" fill="#4aae77"/>
+    </g>
+    <g transform="translate(1230 262) scale(0.9)">
+      <rect x="-7" y="0" width="14" height="44" rx="6" fill="#7a4f30"/>
+      <circle cx="0" cy="-16" r="40" fill="#3f9e6a"/>
+      <circle cx="-24" cy="4" r="28" fill="#4aae77"/>
+      <circle cx="24" cy="4" r="28" fill="#4aae77"/>
+    </g>
+  </g>
+
+  <!-- Front hill -->
+  <path d="M0 326 Q360 270 760 314 T1400 322 L1400 360 L0 360 Z" fill="#3c9a66"/>
+</svg>

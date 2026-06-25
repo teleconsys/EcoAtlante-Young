@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Contenuti">
+  <rect width="320" height="140" fill="#d9f2e8"/>
+  <circle cx="262" cy="34" r="22" fill="#ffd76a"/>
+  <path d="M0 108 Q80 86 170 102 T320 100 L320 140 L0 140 Z" fill="#8ad79e"/>
+  <path d="M0 120 Q90 104 190 116 T320 116 L320 140 L0 140 Z" fill="#5cbf7e"/>
+  <!-- Book -->
+  <g transform="translate(160 70)">
+    <path d="M-46 -22 Q-23 -32 0 -22 L0 26 Q-23 16 -46 26 Z" fill="#ffffff" stroke="#2f6f57" stroke-width="3"/>
+    <path d="M46 -22 Q23 -32 0 -22 L0 26 Q23 16 46 26 Z" fill="#ffffff" stroke="#2f6f57" stroke-width="3"/>
+    <path d="M-34 -16 H-10 M-34 -6 H-10 M-34 4 H-10" stroke="#9bd3b6" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 -16 H34 M10 -6 H34 M10 4 H34" stroke="#9bd3b6" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Leaf -->
+  <path d="M70 44 q26 -18 52 4 q-26 18 -52 -4 Z" fill="#3f9e6a"/>
+</svg>
